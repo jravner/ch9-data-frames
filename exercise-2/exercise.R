@@ -35,13 +35,13 @@ salaries$got_raise <- salaries2018 > salaries2017
 salaries[57, "salaries2018"]
 
 # How many employees got a raise?
-num(salaries(,got_raise == T))
+sum(salaries$got_raise)
 
 # What was the dollar value of the highest raise?
-
+highest_raise <- max(salaries$change)
 
 # What was the "name" of the employee who received the highest raise?
-
+got_biggest_raise <- salaries[ ]
 
 # What was the largest decrease in salaries between the two years?
 
